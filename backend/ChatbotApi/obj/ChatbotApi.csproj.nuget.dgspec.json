@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\ChatbotApi\\ChatbotApi.csproj": {}
+    "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\chatbotapi\\ChatbotApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\ChatbotApi\\ChatbotApi.csproj": {
+    "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\chatbotapi\\ChatbotApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\ChatbotApi\\ChatbotApi.csproj",
+        "projectUniqueName": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\chatbotapi\\ChatbotApi.csproj",
         "projectName": "ChatbotApi",
-        "projectPath": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\ChatbotApi\\ChatbotApi.csproj",
+        "projectPath": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\chatbotapi\\ChatbotApi.csproj",
         "packagesPath": "C:\\Users\\anupooja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\ChatbotApi\\obj\\",
+        "outputPath": "C:\\Users\\anupooja\\OneDrive\\Desktop\\erp-chatbot-demo\\backend\\chatbotapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anupooja\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -55,9 +59,23 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
