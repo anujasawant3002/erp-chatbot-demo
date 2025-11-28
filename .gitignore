@@ -1,0 +1,37 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe
+
+# Build artifacts
+*.log
+*.tmp
+
+# ASP.NET config
+appsettings.Development.json
+
+# React / Node
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Others
+Thumbs.db
+.DS_Store
